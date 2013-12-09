@@ -1,12 +1,11 @@
 Name: Social Link
 AntiForgery: enabled
 Author: Gabriel Case
-Website: http://techvet.azurewebsites.net/
-Version: 0.9
+Website: https://github.com/techvet/SocialLink
+Version: 1.0
 OrchardVersion: 1.7.1
 Description: Easily link users to your social media accounts.
 Features:
     TechVet.SocialLink:
         Description: Easily link users to your social media accounts.
         Category: Social
-        Dependencies: Orchard.jQuery
