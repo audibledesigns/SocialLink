@@ -1,0 +1,13 @@
+﻿@using System.Web.UI.WebControls
+@using TechVet.SocialLink.ViewModels
+
+@{
+    Style.Require("SocialLink");
+}
+
+<ul class="socialLink">
+@foreach (SocialService svc in Model.SocialLink.Services)
+{
+    <li class="@svc.Name"><a href="@svc.Url"><img src="@Href("~/Modules/TechVet.SocialLink/Content/images/" + svc.Image + ".png")" alt="@svc.Name" /></a></li> 
+}
+</ul>

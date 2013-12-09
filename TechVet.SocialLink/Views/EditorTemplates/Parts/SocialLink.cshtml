@@ -1,0 +1,55 @@
+﻿@using System.Web.Mvc.Html
+@model TechVet.SocialLink.Models.SocialLinkPart
+
+<fieldset>
+  <legend>SocialLink Fields</legend>
+            
+  <div class="editor-label">
+    @Html.LabelFor(model => model.TwitterUrl)
+  </div>
+  <div class="editor-field">
+    @Html.TextBoxFor(model => model.TwitterUrl)
+    @Html.ValidationMessageFor(model => model.TwitterUrl)
+  </div>
+
+  <div class="editor-label">
+    @Html.LabelFor(model => model.FacebookUrl)
+  </div>
+  <div class="editor-field">
+    @Html.TextBoxFor(model => model.FacebookUrl)
+    @Html.ValidationMessageFor(model => model.FacebookUrl)
+  </div>
+
+  <div class="editor-label">
+    @Html.LabelFor(model => model.LinkedInUrl)
+  </div>
+  <div class="editor-field">
+    @Html.TextBoxFor(model => model.LinkedInUrl)
+    @Html.ValidationMessageFor(model => model.LinkedInUrl)
+  </div>
+
+  <div class="editor-label">
+    @Html.LabelFor(model => model.GoogleUrl)
+  </div>
+  <div class="editor-field">
+    @Html.TextBoxFor(model => model.GoogleUrl)
+    @Html.ValidationMessageFor(model => model.GoogleUrl)
+  </div>
+
+  <div class="editor-label">
+    @Html.LabelFor(model => model.GitHubUrl)
+  </div>
+  <div class="editor-field">
+    @Html.TextBoxFor(model => model.GitHubUrl)
+    @Html.ValidationMessageFor(model => model.GitHubUrl)
+  </div>
+
+  <div class="editor-label">
+    @Html.LabelFor(model => model.YouTubeUrl)
+  </div>
+  <div class="editor-field">
+    @Html.TextBoxFor(model => model.YouTubeUrl)
+    @Html.ValidationMessageFor(model => model.YouTubeUrl)
+  </div>
+
+</fieldset>
